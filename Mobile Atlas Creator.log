@@ -1,0 +1,197 @@
+2015-05-12 14:01:30,536 INFO  [main] LogSystem: Logging configured by "D:\Mobile Atlas Creator\MOBAC\log4j.xml"
+2015-05-12 14:01:30,552 INFO  [main] SysInfo: Version: Mobile Atlas Creator (MOBAC) 1.9.16
+2015-05-12 14:01:30,552 INFO  [main] SysInfo: Platform: Windows 7 (6.1)
+2015-05-12 14:01:30,552 INFO  [main] SysInfo: Java VM: Java HotSpot(TM) 64-Bit Server VM (1.7.0_80-b15)
+2015-05-12 14:01:30,552 INFO  [main] SysInfo: Directories:
+currentDir: 		D:\Mobile Atlas Creator\MOBAC
+programDir: 		D:\Mobile Atlas Creator\MOBAC
+tempDir:     		C:\Users\ADMINI~1\AppData\Local\Temp
+userHomeDir: 		C:\Users\Administrator
+userSettingsDir: 	D:\Mobile Atlas Creator\MOBAC
+atlasProfilesDir: 	D:\Mobile Atlas Creator\MOBAC
+userAppDataDir: 	C:\Users\Administrator\AppData\Roaming\Mobile Atlas Creator
+2015-05-12 14:01:30,552 INFO  [main] SysInfo: System console available: false
+2015-05-12 14:01:30,552 INFO  [main] SysInfo: Startup arguments (count=0):
+2015-05-12 14:01:31,099 INFO  [main] Settings: Applying proxy configuration: host= port=
+2015-05-12 14:01:31,099 INFO  [main] EnvironmentSetup: Total available memory to MOBAC: 425.00 MiB
+2015-05-12 14:01:31,302 TRACE [main] BeanShellMapSourceLoader: BeanShell map source loaded: BS OSM TilesAtHome from file "Example beanshell map source.bsh"
+2015-05-12 14:01:40,116 ERROR [main] MapPackManager: failed to load custom map source "CloudMade1960.xml": 无法载入自定义的CloudMade 地图源. 请确保openstreetmap地图源包完好可用.
+java.lang.RuntimeException: 无法载入自定义的CloudMade 地图源. 请确保openstreetmap地图源包完好可用.
+	at mobac.mapsources.custom.CustomCloudMade.getMapSource(CustomCloudMade.java:59)
+	at mobac.mapsources.loader.CustomMapSourceLoader.loadCustomMapSources(CustomMapSourceLoader.java:66)
+	at mobac.mapsources.DefaultMapSourcesManager.loadMapSources(DefaultMapSourcesManager.java:96)
+	at mobac.mapsources.DefaultMapSourcesManager.initialize(DefaultMapSourcesManager.java:141)
+	at mobac.Main.<init>(Main.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at mobac.StartMOBAC.main(StartMOBAC.java:46)
+Caused by: java.lang.NullPointerException
+	at mobac.mapsources.custom.CustomCloudMade.getMapSource(CustomCloudMade.java:50)
+	... 10 more
+2015-05-12 14:01:40,116 ERROR [main] MapPackManager: failed to load custom map source "Example CloudMade Fine Line.xml": 无法载入自定义的CloudMade 地图源. 请确保openstreetmap地图源包完好可用.
+java.lang.RuntimeException: 无法载入自定义的CloudMade 地图源. 请确保openstreetmap地图源包完好可用.
+	at mobac.mapsources.custom.CustomCloudMade.getMapSource(CustomCloudMade.java:59)
+	at mobac.mapsources.loader.CustomMapSourceLoader.loadCustomMapSources(CustomMapSourceLoader.java:66)
+	at mobac.mapsources.DefaultMapSourcesManager.loadMapSources(DefaultMapSourcesManager.java:96)
+	at mobac.mapsources.DefaultMapSourcesManager.initialize(DefaultMapSourcesManager.java:141)
+	at mobac.Main.<init>(Main.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at mobac.StartMOBAC.main(StartMOBAC.java:46)
+Caused by: java.lang.NullPointerException
+	at mobac.mapsources.custom.CustomCloudMade.getMapSource(CustomCloudMade.java:50)
+	... 10 more
+2015-05-12 14:01:40,148 ERROR [main] MapPackManager: failed to load custom map source "Example CloudMade1960.xml": 无法载入自定义的CloudMade 地图源. 请确保openstreetmap地图源包完好可用.
+java.lang.RuntimeException: 无法载入自定义的CloudMade 地图源. 请确保openstreetmap地图源包完好可用.
+	at mobac.mapsources.custom.CustomCloudMade.getMapSource(CustomCloudMade.java:59)
+	at mobac.mapsources.loader.CustomMapSourceLoader.loadCustomMapSources(CustomMapSourceLoader.java:66)
+	at mobac.mapsources.DefaultMapSourcesManager.loadMapSources(DefaultMapSourcesManager.java:96)
+	at mobac.mapsources.DefaultMapSourcesManager.initialize(DefaultMapSourcesManager.java:141)
+	at mobac.Main.<init>(Main.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at mobac.StartMOBAC.main(StartMOBAC.java:46)
+Caused by: java.lang.NullPointerException
+	at mobac.mapsources.custom.CustomCloudMade.getMapSource(CustomCloudMade.java:50)
+	... 10 more
+2015-05-12 14:01:40,148 TRACE [main] MapPackManager: Custom map source loaded: Custom OSM Mapnik from file "Example custom map source.xml"
+2015-05-12 14:01:42,067 ERROR [main] MapPackManager: [severity=ERROR,message=null,locator=[node=null,object=null,url=file:/D:/Mobile%20Atlas%20Creator/MOBAC/mapsources/Example%20custom%20multi-layer%20map%20source%20alpha.xml,line=29,col=21,offset=-1]]
+2015-05-12 14:01:42,082 ERROR [main] MapPackManager: failed to load custom map source "Example custom multi-layer map source alpha.xml": null
+javax.xml.bind.UnmarshalException
+ - with linked exception:
+[java.lang.reflect.InvocationTargetException]
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:697)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:726)
+	at com.sun.xml.internal.bind.v2.runtime.JaxBeanInfo.invokeUnmarshallCallback(JaxBeanInfo.java:545)
+	at com.sun.xml.internal.bind.v2.runtime.JaxBeanInfo.invokeAfterUnmarshalMethod(JaxBeanInfo.java:536)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.fireAfterUnmarshal(Loader.java:214)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.StructureLoader.leaveElement(StructureLoader.java:264)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.endElement(UnmarshallingContext.java:561)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:133)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:203)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:175)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at mobac.mapsources.loader.CustomMapSourceLoader.loadCustomMapSources(CustomMapSourceLoader.java:64)
+	at mobac.mapsources.DefaultMapSourcesManager.loadMapSources(DefaultMapSourcesManager.java:96)
+	at mobac.mapsources.DefaultMapSourcesManager.initialize(DefaultMapSourcesManager.java:141)
+	at mobac.Main.<init>(Main.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at mobac.StartMOBAC.main(StartMOBAC.java:46)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.xml.internal.bind.v2.runtime.JaxBeanInfo.invokeUnmarshallCallback(JaxBeanInfo.java:541)
+	... 32 more
+Caused by: java.lang.RuntimeException: Invalid map source name used: Mapnik
+	at mobac.mapsources.custom.StandardMapSourceLayer.afterUnmarshal(StandardMapSourceLayer.java:53)
+	... 37 more
+2015-05-12 14:01:42,165 TRACE [main] MapPackManager: Custom map source loaded: Custom OSM Mapnik with Hills (Ger) from file "Example custom multi-layer map source.xml"
+2015-05-12 14:01:44,101 ERROR [main] MapPackManager: [severity=ERROR,message=null,locator=[node=null,object=null,url=file:/D:/Mobile%20Atlas%20Creator/MOBAC/mapsources/Example%20custom%20multi-layer%20map%20source2.xml,line=24,col=21,offset=-1]]
+2015-05-12 14:01:44,101 ERROR [main] MapPackManager: failed to load custom map source "Example custom multi-layer map source2.xml": null
+javax.xml.bind.UnmarshalException
+ - with linked exception:
+[java.lang.reflect.InvocationTargetException]
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:697)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleError(UnmarshallingContext.java:726)
+	at com.sun.xml.internal.bind.v2.runtime.JaxBeanInfo.invokeUnmarshallCallback(JaxBeanInfo.java:545)
+	at com.sun.xml.internal.bind.v2.runtime.JaxBeanInfo.invokeAfterUnmarshalMethod(JaxBeanInfo.java:536)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.fireAfterUnmarshal(Loader.java:214)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.StructureLoader.leaveElement(StructureLoader.java:264)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.endElement(UnmarshallingContext.java:561)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:133)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:203)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:175)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at mobac.mapsources.loader.CustomMapSourceLoader.loadCustomMapSources(CustomMapSourceLoader.java:64)
+	at mobac.mapsources.DefaultMapSourcesManager.loadMapSources(DefaultMapSourcesManager.java:96)
+	at mobac.mapsources.DefaultMapSourcesManager.initialize(DefaultMapSourcesManager.java:141)
+	at mobac.Main.<init>(Main.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at mobac.StartMOBAC.main(StartMOBAC.java:46)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.xml.internal.bind.v2.runtime.JaxBeanInfo.invokeUnmarshallCallback(JaxBeanInfo.java:541)
+	... 32 more
+Caused by: java.lang.RuntimeException: Invalid map source name used: Mapnik
+	at mobac.mapsources.custom.StandardMapSourceLayer.afterUnmarshal(StandardMapSourceLayer.java:53)
+	... 37 more
+2015-05-12 14:01:44,164 TRACE [main] MapPackManager: Custom map source loaded: Custom map from tile files from file "Example custom tile files source.xml"
+2015-05-12 14:01:44,180 TRACE [main] MapPackManager: Custom map source loaded: Custom SQLite atlas from file "Example custom tile SQLite source.xml"
+2015-05-12 14:01:44,195 TRACE [main] MapPackManager: Custom map source loaded: Custom map from tile zips from file "Example custom tile zip source.xml"
+2015-05-12 14:01:44,211 TRACE [main] MapPackManager: Custom map source loaded: TerraServer WMS from file "Example custom WMS map source.xml"
+2015-05-12 14:01:44,258 DEBUG [main] BerkeleyDbTileStore: Tile store path: D:\Mobile Atlas Creator\MOBAC\tilestore
+2015-05-12 14:01:44,289 DEBUG [AWT-EventQueue-0] MAC: Starting GUI
+2015-05-12 14:01:44,336 INFO  [AWT-EventQueue-0] JMapViewer: Map layer changed to: BS OSM TilesAtHome
+2015-05-12 14:02:03,742 DEBUG [AWT-EventQueue-0] JAtlasTree: Creating new atlas
+2015-05-12 14:02:03,793 DEBUG [AWT-EventQueue-0] MainGUI: Selected grid zoom combo box item has changed: -1
+2015-05-12 14:02:03,980 DEBUG [Map preview thread 1] BerkeleyDbTileStore: Opening tile store db: "D:\Mobile Atlas Creator\MOBAC\tilestore\db-BS OSM TilesAtHome"
+2015-05-12 14:02:04,401 DEBUG [Map preview thread 1] BeanShellHttpMapSource: Map source has been initialized
+2015-05-12 14:02:04,417 TRACE [Map preview thread 3] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/3/3.png
+2015-05-12 14:02:04,417 TRACE [Map preview thread 2] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/4/3.png
+2015-05-12 14:02:04,417 TRACE [Map preview thread 5] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/3/1.png
+2015-05-12 14:02:04,417 TRACE [Map preview thread 1] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/4/2.png
+2015-05-12 14:02:04,417 TRACE [Map preview thread 4] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/3/2.png
+2015-05-12 14:02:04,713 TRACE [Map preview thread 4] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/4/1.png
+2015-05-12 14:02:04,729 TRACE [Map preview thread 4] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/5/4.png
+2015-05-12 14:02:04,760 TRACE [Map preview thread 4] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/4/4.png
+2015-05-12 14:02:04,760 TRACE [Map preview thread 4] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/2/4.png
+2015-05-12 14:02:04,760 TRACE [Map preview thread 4] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/2/3.png
+2015-05-12 14:02:04,760 TRACE [Map preview thread 4] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/2/2.png
+2015-05-12 14:02:04,776 TRACE [Map preview thread 4] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/2/1.png
+2015-05-12 14:02:04,776 TRACE [Map preview thread 1] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/5/3.png
+2015-05-12 14:02:04,776 TRACE [Map preview thread 2] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/5/2.png
+2015-05-12 14:02:04,776 TRACE [Map preview thread 3] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/5/1.png
+2015-05-12 14:02:04,776 TRACE [Map preview thread 5] TileDownLoader: Downloading http://tah.openstreetmap.org/Tiles/tile/3/3/4.png
+2015-05-12 14:10:08,961 DEBUG [DBShutdown] BerkeleyDbTileStore: Closing all tile databases...
+2015-05-12 14:10:08,961 DEBUG [DBShutdown] BerkeleyDbTileStore: Closing tile store db "BS OSM TilesAtHome"
+2015-05-12 14:10:09,086 DEBUG [DBShutdown] BerkeleyDbTileStore: All tile databases has been closed
